@@ -29,6 +29,7 @@
 
         .container div {
             display: flex;
+            flex-direction:column;
             justify-content: center;
             background: black;
             border: 4px solid white;
@@ -36,6 +37,9 @@
             height: 250px;
             padding: 20px;
             transition: transform 0.3s ease, background 0.3s ease;
+        }
+        .container div p {
+            color:black;
         }
         /* left card */
         .card-left {
@@ -61,10 +65,9 @@
         .container div:hover {
             transform: scale(1.05);
             background: white;
+            color:black;
         }
-        .container div:hover h3 {
-            color: black;
-        }
+        
     </style>
 </head>
 
